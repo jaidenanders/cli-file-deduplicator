@@ -1,0 +1,7 @@
+click>=8.1
+rich>=13.0
+send2trash>=1.8
+
+[dev]
+pytest>=7.4
+pytest-cov>=4.1

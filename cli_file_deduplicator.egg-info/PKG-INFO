@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: cli-file-deduplicator
+Version: 1.1.0
+Summary: Fast, interactive CLI tool to find and remove duplicate files
+License-Expression: MIT
+Requires-Python: >=3.10
+Requires-Dist: click>=8.1
+Requires-Dist: rich>=13.0
+Requires-Dist: send2trash>=1.8
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: pytest-cov>=4.1; extra == "dev"
